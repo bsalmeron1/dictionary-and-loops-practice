@@ -21,21 +21,30 @@
 ## be able to add new data
 # Your program must allow the secretary to ADD a brand new student
 # into the system while the program is running.
-
+import newstudents
 # Your job is to let the secretary type in a new student just like filling out a registration form.
 # Once the form is complete, your program must turn that information into a dictionary and add it to the main list of students.
 # If the student already exists (same CPS ID), your program must block the entry to prevent duplicates.
 
+ln=input("What is students last name?  :")
+fn=input("Whats students first name?  : ")
+fulln== str(ln, fn)
 # The program should:
-    # 1. Ask the user for the following information:
-    #    - CPS ID
-    #    - First Name
-    #    - Last Name
-    #    - Middle Name
-    #    - Homeroom
-    #    - Grade Level
-    #    - Primary Email
-    #    - Secondary Email
+     # 1. Ask the user for the following information:
+        #    - CPS ID
+        #    - First Name
+        #    - Last Name
+        #    - Middle Name
+        #    - Homeroom
+        #    - Grade Level
+        #    - Primary Email
+        #    - Secondary Email
+id=input("Whats students id num?  : ")
+mn=input("Whats students middle name? press enter if none  : ")
+hr=input("Whats students homeroom num?  : ")
+gn=input("Whats students grade num?  : ")
+fe=input("Whats students first email?  : ")
+se=input("Whats students second email?  : ")
 
 # 2. Combine the First and Last name into this format:
     #    "Last, First"  
